@@ -10,7 +10,6 @@ namespace cz.Api.Order.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    [Authorize]
     public class OrderController : ControllerBase
     {
         private readonly ILogger<OrderController> _logger;

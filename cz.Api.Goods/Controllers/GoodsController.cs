@@ -10,7 +10,6 @@ namespace cz.Api.Goods.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    [Authorize]
     public class GoodsController : ControllerBase
     {
         private readonly ILogger<GoodsController> _logger;
